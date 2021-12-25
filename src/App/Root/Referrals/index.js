@@ -6,7 +6,7 @@ import archive from "assets/archive.jpg";
 
 const Wrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   gap: 50px;
 `;
@@ -17,6 +17,7 @@ const Referrals = ({ className }) => {
       {" "}
       <Referral
         to="rolunk"
+        title="Rólunk"
         description="A belföldi és nemzetközi együttműködésen alapuló sorozatot a Szegedi Tudományegyetem Összehasonlító Irodalomtudományi Tanszéke adja ki."
         image={about}
       />

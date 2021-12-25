@@ -1,7 +1,6 @@
-import c from "components/Citation";
 export default {
   title: "Tanács egy ifjú kereskedőnek — egy öregtől",
-  work: (
+  html: (
     <>
       <p>A. B. barátomnak</p>
       <p>
@@ -26,12 +25,11 @@ export default {
         Ne feledd, hogy a pénznek szapora nemzőképessége van. A pénz pénzt
         fiadzhat, ivadékai pedig még többet fiadzhatnak, és így tovább. Öt
         shilling megforgatva hat, újra megforgatva hét shilling és három penny,
-        s így tovább, amíg száz fonttá nem válik.
-        <c text="[1 font = 20 shilling, 1 shilling = 3 groat, 1 groat = 4 penny. 5 shillingből 20 százalékos kamatláb mellett lesz 6 shilling, ugyanilyen kamatlábbal számolva a 6 shilling 7,2 shillingre duzzad, ami egész pontosan 7 shillingnek és 2,4 pennynek felel meg. A kezdeti 5 shilling 33 forgással éri el a 100 fontot. — A ford.]" />{" "}
-        Minél több van belőle, annál többet termel minden megforgatáskor,
-        miáltal a profit egyre gyorsabban növekszik. Aki leöl egy tenyészkocát,
-        ezredíziglen elpusztítja annak összes ivadékát. Aki megöl egy koronát,
-        elpusztítja mindazt, amit az termelhetett volna, akár sok-sok fontot is.
+        s így tovább, amíg száz fonttá nem válik. Minél több van belőle, annál
+        többet termel minden megforgatáskor, miáltal a profit egyre gyorsabban
+        növekszik. Aki leöl egy tenyészkocát, ezredíziglen elpusztítja annak
+        összes ivadékát. Aki megöl egy koronát, elpusztítja mindazt, amit az
+        termelhetett volna, akár sok-sok fontot is.
       </p>
       <p>
         Ne feledd, hogy évi hat font mindössze napi egy groat. E csekély

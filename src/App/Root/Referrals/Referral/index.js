@@ -5,13 +5,11 @@ const Wrapper = styled(Link)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 20px;
   color: #000;
   text-decoration: none;
   :hover {
     background: #eee7c6;
-    /* background: #f3cc0c; */
   }
   transition: 0.2s;
   padding: 20px;
@@ -19,6 +17,7 @@ const Wrapper = styled(Link)`
 
 const Illustration = styled.div`
   width: 120px;
+  flex-basis: 120px;
   position: relative;
 `;
 

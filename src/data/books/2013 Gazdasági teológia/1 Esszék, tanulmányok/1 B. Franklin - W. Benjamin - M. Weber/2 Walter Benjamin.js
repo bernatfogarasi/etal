@@ -1,6 +1,6 @@
 export default {
   title: "A kapitalizmus mint vallás",
-  work: (
+  html: (
     <>
       <p>
         A kapitalizmusban vallást kell látnunk, vagyis a kapitalizmus lényegileg

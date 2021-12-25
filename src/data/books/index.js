@@ -18,7 +18,7 @@ export default {
       "3 Eszmetörténeti aspektusok": ["1 Hites Sándor", "2 Kovács György"],
     },
 
-    "2 RECENZIÓK": ["1 Feleky Gábor Attila", "2 Kocsis Ferenc"],
+    "2 Recenziók": ["1 Feleky Gábor Attila", "2 Kocsis Ferenc"],
   },
   "2021 Az irodalom klímapolitikái": {
     "1 Tanulmányok": {

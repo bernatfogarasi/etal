@@ -1,6 +1,6 @@
 export default {
   title: "A pénz idő: gondolatok hitelről, válságról",
-  work: (
+  html: (
     <>
       <p>I.</p>
       <p>

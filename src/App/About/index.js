@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import Page from "components/Page";
 
-const Wrapper = styled(Page)``;
+const Wrapper = styled(Page)`
+  text-align: justify;
+`;
 
-const Rolunk = ({ className }) => {
+const About = ({ className }) => {
   return (
     <Wrapper className={className} title="Rólunk">
       <p>
@@ -48,4 +50,4 @@ const Rolunk = ({ className }) => {
   );
 };
 
-export default Rolunk;
+export default About;

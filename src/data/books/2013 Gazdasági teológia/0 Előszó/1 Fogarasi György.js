@@ -1,7 +1,6 @@
 export default {
-  title:
-    "Az ökogótikus vámpír: ökofóbia és/vagy kapitalizmuskritika a vérszívótörténetekben",
-  work: (
+  title: "Előszó: az irodalom klímapolitikái",
+  html: (
     <>
       <p>AZ ÖKOGÓTIKUS VÁMPÍR</p>
 
@@ -53,7 +52,7 @@ export default {
         </a>{" "}
       </p>
 
-      <p>
+      <p className="quote">
         A következőkben azt próbálom bebizonyítani, hogy a gótikus fikciók – és
         különösen a vámpírnarratívák – a látszat ellenére nem feltétlenül az
         ökofóbia manifesztációi. Alaposabban megfontolva az ökofóbia fenti

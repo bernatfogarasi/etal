@@ -11,33 +11,34 @@ const Wrapper = styled.div`
   grid-template-rows: auto 1fr auto;
 `;
 
+const Logo = styled.img``;
+
+const Title = styled.div`
+  font-size: 30px;
+`;
+
+const Line = styled.hr`
+  width: 100%;
+`;
+
 const Content = styled.div`
   width: 90vw;
   max-width: 1000px;
   margin: 0 auto 20px auto;
 `;
 
-const Title = styled.div`
-  font-size: 30px;
-  margin-bottom: 20px;
-`;
-
-const Logo = styled.img``;
-
 const Page = ({ className, children, title }) => {
   return (
-    <Wrapper className={className}>
+    <Wrapper>
       <Header>
         <Link to="/">
           <Logo src={logo} />
         </Link>
         <Menu />
-      </Header>
-      <Content>
         <Title>{title}</Title>
-        <hr></hr>
-        {children}
-      </Content>
+        <Line></Line>
+      </Header>
+      <Content className={className}>{children}</Content>
       <Footer />
     </Wrapper>
   );

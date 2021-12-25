@@ -4,7 +4,7 @@ const Wrapper = styled.div`
   display: grid;
   width: 90vw;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
   gap: 20px;
   height: fit-content;
 `;
